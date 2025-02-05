@@ -35,7 +35,7 @@ p{
     cursor: pointer;
     overflow: hidden;
     transition: background 0.3s ease;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   /* Default text (initially visible) */
@@ -147,6 +147,7 @@ p{
 .row-description {
   flex-wrap: wrap; /* Ensure it wraps on smaller screens */
   padding: 20px 0;
+  margin-bottom: 40px;
 }
 
 .desc {
@@ -160,4 +161,8 @@ p{
   .col-4 {
     max-width: 100%;
   }
+}
+
+.row {
+  margin-bottom: 20px; /* Adds 20px spacing below each row */
 }
