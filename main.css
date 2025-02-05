@@ -18,7 +18,7 @@ p{
 .col-4 {
     padding: 10px;
     margin: 0 10px;
-    width: 450px;
+    max-width: 100%;
 }
   .card-overlay {
     position: relative;
@@ -27,7 +27,7 @@ p{
     border: 1px solid #ccc; 
     border-radius: 10px; 
     padding: 20px;
-    height: 550px;
+    height: auto;
     text-align: center;
     line-height: 50px;
     font-size: 18px;
@@ -35,6 +35,7 @@ p{
     cursor: pointer;
     overflow: hidden;
     transition: background 0.3s ease;
+    margin-bottom: 20px;
   }
   
   /* Default text (initially visible) */
@@ -141,4 +142,22 @@ p{
 }
 .jb .card-overlay:hover{
     background: url('image/jbmeme.jpg') center/cover no-repeat;
+}
+
+.row-description {
+  flex-wrap: wrap; /* Ensure it wraps on smaller screens */
+  padding: 20px 0;
+}
+
+.desc {
+  max-width: 100%; /* Allow description to scale */
+}
+
+@media (max-width: 768px) {
+  .row-description {
+    flex-direction: column; /* Stack items vertically */
+  }
+  .col-4 {
+    max-width: 100%;
+  }
 }
