@@ -1,0 +1,52 @@
+body{
+    background: url(image/bg8.jpg) no-repeat center center fixed;;
+    background-size: cover;
+}
+.album1 {
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 10px;
+}
+.album1 img{
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+}
+.year h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: smaller;
+    color: beige;
+}
+
+.albumtitle p{
+    color: white;
+    font-family: "Scheherazade New", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70%;
+    margin: 0; /* Remove default margin */
+    margin-left: 10px;
+    line-height: 1.2; /* Adjust line spacing for better fit */
+}
+.whole {
+    display: flex;
+    flex-direction: column; /* Ensures content inside `.whole` stacks vertically */
+    justify-content: center; /* Centers the text vertically */
+}
+
+.media-player {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 95%;
+    height: 150px;
+    justify-content: center;
+}
+
+.albumdesc1 p{
+    color: white;
+    font-size: 50%;
+    margin: 10px;
+}
