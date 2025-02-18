@@ -1,6 +1,7 @@
 body{
-    background: url(image/bg8.jpg) no-repeat center center fixed;;
+    /*background: url(image/bg8.jpg) no-repeat center center fixed;*/
     background-size: cover;
+    background-color: black;
 }
 .album1 {
     display: flex; /* Use Flexbox */

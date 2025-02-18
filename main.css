@@ -1,6 +1,6 @@
 html, body {
-    /*background: linear-gradient(to bottom right, #1a3d2f, #2f6a4f);*/
-    background: url(image/bg8.jpg) center/cover no-repeat;
+    background: black;
+    /*background: url(image/bg8.jpg) center/cover no-repeat;*/
     font-family: 'Montserrat', sans-serif;
 }
 .header{
